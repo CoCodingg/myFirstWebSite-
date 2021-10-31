@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;600&display=swap");
+.audio {
+  width: 100%;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Black Han Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.audio:hover {
+  width: 100%;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Black Han Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.audio-container img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0px;
+}
+
+.audio-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.audio-albumpic {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.audio-sing__column:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio-button__column:last-child button {
+  background-color: transparent;
+  box-shadow: 3px 3px 3px black;
+  transition-duration: 0.3;
+  outline: none;
+  border: none;
+}
+
+.audio-button__column:last-child button:active {
+  margin-left: 5px;
+  margin-top: 5px;
+  box-shadow: none;
+}
+
+.audio-button__column:last-child img {
+  width: 30px;
+  height: 30px;
+}

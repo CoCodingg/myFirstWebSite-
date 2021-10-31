@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;600&display=swap");
+
+.homepage-buttons {
+  font-family: "Black Han Sans", sans-serif;
+  width: 50%;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.homepage-buttons:hover {
+  font-family: "Black Han Sans", sans-serif;
+  width: 50%;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.homepage-buttons__firstline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-buttons__secondline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+}
+
+.homepage-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.homepage-column img {
+  width: 65px;
+  height: 65px;
+}
+
+.homepage-column button {
+  border: none;
+  outline: none;
+  background: none;
+  box-shadow: 3px 3px 3px black;
+  transition-duration: 0.3;
+}
+
+.homepage-column button:active {
+  margin-left: 5px;
+  margin-top: 5px;
+  box-shadow: none;
+}
+
+.homepage-column button:hover,
+.homepage-column span:hover {
+  cursor: pointer;
+}
+
+.homepage-buttons__title {
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0px;
+  display: flex;
+  margin: 10% 0px;
+}
+
+.homepage-buttons__title img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}

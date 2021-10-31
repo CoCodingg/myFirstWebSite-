@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;600&display=swap");
+
+.time-login {
+  width: 50%;
+  height: 35vh;
+  padding: 10px;
+}
+
+.clock-time {
+  font-size: 60px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.login-container {
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.login-form input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 4px solid black;
+}
+
+.login-form input::placeholder {
+  color: black;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.login-form button {
+  margin-left: 10px;
+}
+
+.login-form button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.login-form img {
+  width: 30px;
+  height: 30px;
+}
+
+.login-form button:hover {
+  cursor: pointer;
+}
+
+.userlogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;600&display=swap");
+
+.clock-day {
+  width: 50%;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Black Han Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.clock-day:hover {
+  width: 50%;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Black Han Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.clock-day__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0px;
+}
+
+.clock-day__title img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.clock-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-all {
+  margin-top: 5%;
+  font-size: 25px;
+}
+
+.clock-dayofweekend {
+  font-size: 50px;
+  margin-top: 30px;
+}

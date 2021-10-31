@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome😺 | My first Website</title>
+    <link rel="stylesheet" href="css/backbackback.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/homepage.css" />
+    <link rel="stylesheet" href="css/clock-login.css" />
+    <link rel="stylesheet" href="css/dday.css" />
+    <link rel="stylesheet" href="css/music.css" />
+    <link rel="stylesheet" href="css/day.css" />
+    <link rel="stylesheet" href="css/todolist.css" />
+    <link rel="stylesheet" href="css/weather.css" />
+    <link rel="stylesheet" href="css/csslayout.css" />
+  </head>
+    <span class="madeby">Made by HeeGyun</span>
+    <span class="orner">홈페이지의 이모티콘의 저작권은 Flaticon에 있습니다.</span>
+    <button class="background-button"><img src="photo/button.png" /></button>
+    <main class="container">
+      <section class="left">
+        <div class="left-top">
+          <div class="clock-day">
+            <div class="clock-day__title">
+              Today<img src="photo/calendar.png" />
+            </div>
+            <div class="clock-column">
+              <div class="clock-all"></div>
+              <div class="clock-dayofweekend"></div>
+            </div>
+          </div>
+          <div class="d-day">
+            <div class="d-day__title">
+              D-day<img src="photo/schedule.png" />
+            </div>
+            <div class="d-day__clock">
+              <form class="d-day__form">
+                <input type="text" placeholder="Please Write D-day 😄" />
+                <span class="hidden"></span>
+                <button>
+                  <img src="photo/panic-button.png" />
+                </button>
+              </form>
+            </div>
+            <div class="ex">ex) 2022-03-15</div>
+          </div>
+        </div>
+        <div class="left-bottom">
+          <audio id="audio-container">
+            <source src="" id="audio-src" />
+          </audio>
+          <div muted class="audio">
+            <div class="audio-container">
+              Music<img src="photo/music.png" />
+            </div>
+            <div class="audio-setting">
+              <img src="" class="audio-albumpic" />
+              <div class="audio-sing__column">
+                <div class="audio-sing__title"></div>
+                <div class="audio-sing__name"></div>
+              </div>
+              <div class="audio-button__column">
+                <button class="audio-play">
+                  <img src="photo/playbutton.png" />
+                </button>
+                <button class="audio-stop">
+                  <img src="photo/pause-button.png" />
+                </button>
+                <button class="audio-next">
+                  <img src="photo/next.png" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="right">
+        <div class="right-top">
+          <div class="time-login">
+            <div class="clock-time"></div>
+            <div class="login-container">
+              <form class="login-form hidden">
+                <input type="text" required placeholder="Write Your Name !" />
+                <button><img src="photo/login.png" /></button>
+              </form>
+              <div class="userlogin hidden"></div>
+            </div>
+          </div>
+          <div class="todo">
+            <div class="todo-title">
+              TodoList<img src="photo/checklists.png" />
+            </div>
+            <form class="todolist-form">
+              <input type="text" placeholder="Write today's plan" required />
+              <button><img src="photo/pencil.png" /></button>
+            </form>
+            <ul class="todolist"></ul>
+          </div>
+        </div>
+        <div class="right-bottom">
+          <div class="weather-container">
+            <div class="weather-title">
+              Weather<img src="photo/weather-forecast.png" />
+            </div>
+            <div class="weather">
+              <div class="weatherofcity"></div>
+              <div class="weatherofname"></div>
+            </div>
+          </div>
+          <div class="homepage-buttons">
+            <div class="homepage-buttons__title">
+              Application<img src="photo/application.png" />
+            </div>
+            <div class="homepage-buttons__firstline">
+              <div class="homepage-column">
+                <button class="naverbtn">
+                  <img src="photo/naver.ico" />
+                </button>
+              </div>
+              <div class="homepage-column">
+                <button class="instagrambtn">
+                  <img src="photo/instagram.png" />
+                </button>
+              </div>
+              <div class="homepage-column">
+                <button class="facebookbtn">
+                  <img src="photo/facebook.png" />
+                </button>
+              </div>
+            </div>
+            <div class="homepage-buttons__secondline">
+              <div class="homepage-column">
+                <button class="googlebtn">
+                  <img src="photo/google.png" />
+                </button>
+              </div>
+              <div class="homepage-column">
+                <button class="youtubebtn">
+                  <img src="photo/youtube.png" />
+                </button>
+              </div>
+              <div class="homepage-column">
+                <button class="netflixbtn">
+                  <img src="photo/netflix.png" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/ba30d77b6d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <img class="backback" src="background/풍경1.jpg"/>
+  <script src="JS/homepage-buttons.js"></script>
+  <script src="JS/clock.js"></script>
+  <script src="JS/todolist.js"></script>
+  <script src="JS/quotes.js"></script>
+  <script src="JS/audio-pic.js"></script>
+  <script src="JS/login.js"></script>
+  <script src="JS/weather.js"></script>
+  <script src="JS/background.js"></script>
+</html>

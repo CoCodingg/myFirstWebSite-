@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;600&display=swap");
+.backback {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.background-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.background-button:hover {
+  cursor: pointer;
+}
+
+.background-button img {
+  width: 80px;
+  height: 80px;
+  transition: 0.5s ease-in-out;
+  right: 10px;
+  top: 10px;
+}
+
+.background-button img:hover {
+  width: 100px;
+  height: 100px;
+}
+
+.madeby {
+  position: fixed;
+  font-family: "Black Han Sans", sans-serif;
+  top: 0;
+  left: 0;
+}
+
+.orner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-family: "Black Han Sans", sans-serif;
+}

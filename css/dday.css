@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;600&display=swap");
+.d-day {
+  width: 50%;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Black Han Sans", sans-serif;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-day:hover {
+  width: 50%;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Black Han Sans", sans-serif;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-day__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0px;
+}
+
+.d-day__title img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.d-day__clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.d-day__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-day__form input {
+  outline: none;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  background-color: transparent;
+}
+
+.d-day__form input:hover {
+  outline: none;
+}
+
+.d-day__form input::placeholder {
+  color: black;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.d-day__form span {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.d-day__form img {
+  width: 30px;
+  height: 30px;
+  font-weight: 600;
+}
+
+.d-day__form button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.d-day__form button:hover {
+  cursor: pointer;
+}
+
+.ex {
+  margin-left: 30px;
+  font-size: 14px;
+}

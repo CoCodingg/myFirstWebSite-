@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;600&display=swap");
+.todo {
+  font-family: "Black Han Sans", sans-serif;
+  width: 50%;
+  height: 35vh;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.todo:hover {
+  font-family: "Black Han Sans", sans-serif;
+  width: 50%;
+  height: 35vh;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.todo-title {
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0px;
+  display: flex;
+}
+
+.todo-title img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.todolist-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todolist-form input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 4px solid black;
+}
+
+.todolist-form input::placeholder {
+  color: black;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.todolist-form button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.todolist-form button:hover {
+  cursor: pointer;
+}
+
+.todolist li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todolist-form img {
+  width: 20px;
+  height: 20px;
+}
+
+.todolist button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.todolist img {
+  width: 20px;
+  height: 20px;
+}
